@@ -14,6 +14,9 @@
 		A4CBB79822DB2B9300DB9756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4CBB79722DB2B9300DB9756 /* Assets.xcassets */; };
 		A4CBB79B22DB2B9300DB9756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CBB79922DB2B9300DB9756 /* LaunchScreen.storyboard */; };
 		A4CBB7A622DB2B9300DB9756 /* LearnMoneyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CBB7A522DB2B9300DB9756 /* LearnMoneyAppTests.swift */; };
+		A4D59F9422DBACCF00E4ABDB /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D59F9322DBACCF00E4ABDB /* LearnViewController.swift */; };
+		A4D59F9622DBAD5A00E4ABDB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D59F9522DBAD5A00E4ABDB /* SettingsViewController.swift */; };
+		A4D59F9822DBD48F00E4ABDB /* coinAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D59F9722DBD48F00E4ABDB /* coinAddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		A4CBB7A122DB2B9300DB9756 /* LearnMoneyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnMoneyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CBB7A522DB2B9300DB9756 /* LearnMoneyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoneyAppTests.swift; sourceTree = "<group>"; };
 		A4CBB7A722DB2B9300DB9756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D59F9322DBACCF00E4ABDB /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
+		A4D59F9522DBAD5A00E4ABDB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A4D59F9722DBD48F00E4ABDB /* coinAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coinAddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 				A4CBB78E22DB2B9100DB9756 /* AppDelegate.swift */,
 				A4CBB79022DB2B9100DB9756 /* FirstViewController.swift */,
 				A4CBB79222DB2B9100DB9756 /* SecondViewController.swift */,
+				A4D59F9322DBACCF00E4ABDB /* LearnViewController.swift */,
+				A4D59F9522DBAD5A00E4ABDB /* SettingsViewController.swift */,
+				A4D59F9722DBD48F00E4ABDB /* coinAddViewController.swift */,
 				A4CBB79422DB2B9100DB9756 /* Main.storyboard */,
 				A4CBB79722DB2B9300DB9756 /* Assets.xcassets */,
 				A4CBB79922DB2B9300DB9756 /* LaunchScreen.storyboard */,
@@ -201,7 +210,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4CBB79322DB2B9100DB9756 /* SecondViewController.swift in Sources */,
+				A4D59F9422DBACCF00E4ABDB /* LearnViewController.swift in Sources */,
 				A4CBB78F22DB2B9100DB9756 /* AppDelegate.swift in Sources */,
+				A4D59F9822DBD48F00E4ABDB /* coinAddViewController.swift in Sources */,
+				A4D59F9622DBAD5A00E4ABDB /* SettingsViewController.swift in Sources */,
 				A4CBB79122DB2B9100DB9756 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
